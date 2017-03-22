@@ -16,6 +16,7 @@ while rta not in ('Y', 'n'):
 if rta == 'n':
     quit()
 
+
 path = os.getcwd()
 
 carpeta = os.path.dirname(path+account)
